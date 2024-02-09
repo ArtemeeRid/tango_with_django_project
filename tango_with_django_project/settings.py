@@ -129,6 +129,11 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
+
 # Login URL
 
 LOGIN_URL = 'rango:login'
+
+# Browser-Length Session
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
